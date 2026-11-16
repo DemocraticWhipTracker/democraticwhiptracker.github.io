@@ -47,6 +47,7 @@ RACE = {
                 labels={2:"Declared for Jeffries",1:"Leaning Jeffries",0:"Undecided",-1:"Leaning against Jeffries",-2:"Opposed to Jeffries"}),
 }
 PCT = {2:100,1:75,0:50,-1:25,-2:0}
+BANNER = '<div id="cookiebar" class="cookiebar" role="dialog" aria-live="polite" aria-label="Cookie choice" hidden>\n  <p>We use Google Analytics cookies to count visits and see which pages are useful. Nothing is used for advertising.</p>\n  <div class="cookieacts"><button type="button" id="ck-yes" class="btn primary">Accept analytics</button><button type="button" id="ck-no" class="btn">Decline</button></div>\n</div>\n<script>\n(function(){\n  var bar=document.getElementById("cookiebar"), c=null;\n  try{ c=localStorage.getItem("dwt_consent"); }catch(e){}\n  function set(v){ try{ localStorage.setItem("dwt_consent", v); }catch(e){} gtag("consent","update",{analytics_storage:v}); bar.hidden=true; }\n  if(!c) bar.hidden=false;\n  document.getElementById("ck-yes").onclick=function(){ set("granted"); };\n  document.getElementById("ck-no").onclick=function(){ set("denied"); };\n  var l=document.getElementById("cookie-settings"); if(l) l.onclick=function(ev){ ev.preventDefault(); bar.hidden=false; };\n})();\n</script>'
 COL = {2:"var(--s2)",1:"var(--s1)",0:"var(--s0)",-1:"var(--sm1)",-2:"var(--sm2)",None:"var(--snone)"}
 
 def label(m):
@@ -101,6 +102,13 @@ def head(title, desc, path, root, jsonld, noindex=False, race=""):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Libre+Caslon+Text:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{root}style.css">
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}
+var __c=null;try{{__c=localStorage.getItem("dwt_consent");}}catch(e){{}}
+gtag("consent","default",{{ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied",analytics_storage:__c==="granted"?"granted":"denied"}});
+gtag("js",new Date());gtag("config","G-HNF82TNLRG");
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HNF82TNLRG"></script>
 {ld}
 </head>
 <body data-race="{race}">
@@ -161,16 +169,18 @@ APP = """  <div id="banner" class="banner" hidden></div>
   </section>"""
 
 def foot(root):
-    return f"""  <footer class="foot">Unofficial tracker built from public reporting. Not affiliated with the US Congress or either party. Data last checked {e(fmt(LAST))}. <a href="{root}about/">How it works</a> · <a href="{root}faq/">FAQ</a></footer>
+    return f"""  <footer class="foot">Unofficial tracker built from public reporting. Not affiliated with the US Congress or either party. Data last checked {e(fmt(LAST))}. <a href="{root}about/">How it works</a> · <a href="{root}faq/">FAQ</a> · <a href="#" id="cookie-settings">Cookie settings</a></footer>
 </div>
 <div class="tip" id="tip" role="tooltip"></div>
+""" + BANNER + f"""
 <script src="{root}app.js" defer></script>
 </body>
 </html>"""
 
 def foot_static(root):
-    return f"""  <footer class="foot">Unofficial tracker built from public reporting. Not affiliated with the US Congress or either party. Data last checked {e(fmt(LAST))}. <a href="{root}about/">How it works</a> · <a href="{root}faq/">FAQ</a></footer>
+    return f"""  <footer class="foot">Unofficial tracker built from public reporting. Not affiliated with the US Congress or either party. Data last checked {e(fmt(LAST))}. <a href="{root}about/">How it works</a> · <a href="{root}faq/">FAQ</a> · <a href="#" id="cookie-settings">Cookie settings</a></footer>
 </div>
+""" + BANNER + """
 </body>
 </html>"""
 
@@ -335,6 +345,8 @@ about = f"""<section class="card seo"><h2>How the tracker works</h2>
 <p>News sources are checked every hour. A stance changes only when there is a dated, linkable source that is newer than the evidence already shown. Where reports conflict, the stance is not flipped; the row is marked as conflicting instead.</p>
 <h3>Limits</h3>
 <p>Leadership elections are secret ballots. This tracker shows what members have said in public, not how they will vote. Faction labels are partial. Members in races that have not been called are included and marked.</p>
+<h3>Analytics and cookies</h3>
+<p>The site uses Google Analytics to count visits and see which pages people use. Analytics cookies are only set if you accept them in the banner; until then Google receives anonymous, cookie-free measurements only. Nothing is used for advertising. You can change your choice with the Cookie settings link at the bottom of any page.</p>
 <p>Not affiliated with the US Congress, either party, or any campaign.</p></section>"""
 write("about/index.html", head("How the Democratic Leadership Whip Tracker Works", "How stances are sourced, scored and updated in this unofficial tracker of the Schumer vs Van Hollen and Jeffries Speaker races.",
       "/about/", "../", [WEBSITE, crumbs([("Tracker", "/"), ("How it works", "/about/")])])
