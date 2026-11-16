@@ -1,0 +1,10 @@
+<svg class="dome" viewBox="0 0 220 150" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4">
+      <path d="M110 6v10M106 16h8M107 16v8h6v-8M104 24h12l-2 8h-8z"/>
+      <path d="M100 32h20v10H100zM96 42h28"/>
+      <path d="M70 72c0-20 18-30 40-30s40 10 40 30"/>
+      <path d="M80 72c2-14 14-22 30-22M140 72c-2-14-14-22-30-22M110 42v30"/>
+      <path d="M64 72h92v6H64zM68 78v22M78 78v22M88 78v22M98 78v22M108 78v22M118 78v22M128 78v22M138 78v22M148 78v22"/>
+      <path d="M58 100h104v6H58zM52 106h116v6H52z"/>
+      <path d="M8 120h204M14 112h46v8M160 112h46v8M20 112v8M30 112v8M40 112v8M50 112v8M170 112v8M180 112v8M190 112v8M200 112v8"/>
+      <path d="M4 126h212M0 132h220"/>
+    </svg>
