@@ -32,6 +32,9 @@ for m in members:
 TODAY = datetime.date.today().isoformat()
 LAST = (meta.get("lastRun") or TODAY)[:10]
 e = lambda s: html.escape("" if s is None else str(s), quote=True)
+def clip(t, n=155):
+    t = " ".join(str(t).split())
+    return t if len(t) <= n else t[:n-1].rsplit(" ", 1)[0].rstrip(",.;:") + "…"
 
 RACE = {
   "senate": dict(leader="Chuck Schumer", short="Schumer", challenger="Chris Van Hollen", chal_short="Van Hollen",
@@ -78,18 +81,20 @@ def head(title, desc, path, root, jsonld, noindex=False, race=""):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
-<meta name="description" content="{e(desc)}">
+<meta name="description" content="{e(clip(desc))}">
+<meta name="theme-color" content="#14213d">
+<link rel="alternate" type="application/rss+xml" title="Democratic Leadership Whip Tracker updates" href="{SITE}/feed.xml">
 <link rel="canonical" href="{e(url)}">
 {'<meta name="robots" content="noindex,follow">' if noindex else '<meta name="robots" content="index,follow,max-image-preview:large">'}
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Democratic Leadership Whip Tracker">
 <meta property="og:title" content="{e(title)}">
-<meta property="og:description" content="{e(desc)}">
+<meta property="og:description" content="{e(clip(desc, 200))}">
 <meta property="og:url" content="{e(url)}">
 <meta property="og:image" content="{SITE}/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{e(title)}">
-<meta name="twitter:description" content="{e(desc)}">
+<meta name="twitter:description" content="{e(clip(desc, 200))}">
 <meta name="twitter:image" content="{SITE}/og.png">
 <link rel="icon" href="{root}favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -286,22 +291,23 @@ sitemap = []
 
 # Home
 cs, ch = counts("senate"), counts("house")
-desc = (f"Live whip count of where every Democrat stands in the Schumer vs Van Hollen Senate leader race and Jeffries' bid for Speaker. "
-        f"{cs[2]+cs[1]} senators back Schumer, {cs[-2]+cs[-1]} oppose him. Updated hourly.")
-write("index.html", head("Schumer vs Van Hollen and Jeffries Speaker Whip Count | Democratic Leadership Tracker", desc, "/", "./",
+desc = (f"Live whip count: where every Democrat stands on Schumer vs Van Hollen and Jeffries for Speaker. "
+        f"{cs[2]+cs[1]} senators back Schumer, {cs[-2]+cs[-1]} oppose. Updated hourly.")
+write("index.html", head("Schumer vs Van Hollen Whip Count & Jeffries Speaker Tracker", desc, "/", "./",
       [WEBSITE, dataset("Democratic leadership race stances, 120th Congress", desc, "/")])
       + mast("Democratic Leadership Whip Tracker", "Where every Democrat in the incoming Senate and House publicly stands in the leadership races. Built from public statements only: the leader votes are secret ballots.", "./")
       + APP + race_summary("senate", "./") + race_summary("house", "./")
       + f'<section class="card seo"><h2>Common questions</h2>{faq_html(FAQ[:6])}<p><a href="./faq/">More questions and answers</a></p></section>'
       + foot("./"))
-sitemap.append(("/", "1.0"))
+ALLD = max([m["date"] for m in members if m["date"]] + [LAST])
+sitemap.append(("/", "1.0", ALLD))
 
 # Race pages
 for chm, path, t, h1, d in (
-    ("senate", "/senate/", "Schumer vs Van Hollen Whip Count: Where Every Senate Democrat Stands",
+    ("senate", "/senate/", "Schumer vs Van Hollen Whip Count: Every Senate Democrat",
      "Schumer vs Van Hollen: Senate Democratic leader whip count",
      f"Who supports Chuck Schumer and who backs Chris Van Hollen for Senate Democratic leader? {cs[2]} declared for Schumer, {len([m for m in by('senate') if m['backing']=='Van Hollen'])} named Van Hollen. Live count, updated hourly."),
-    ("house", "/house/", "Jeffries Speaker Vote Whip Count: Where Every House Democrat Stands",
+    ("house", "/house/", "Jeffries Speaker Whip Count: Every House Democrat's Stance",
      "Hakeem Jeffries for Speaker: House Democrat whip count",
      f"Which House Democrats back Hakeem Jeffries for Speaker and who is holding out? {ch[2]} declared for Jeffries, {ch[0]} uncommitted. Live count, updated hourly.")):
     write(path.strip("/") + "/index.html",
@@ -309,14 +315,14 @@ for chm, path, t, h1, d in (
           + mast(h1, d, "../", tabs=False) + APP + race_summary(chm, "../")
           + f'<section class="card seo"><h2>Questions about this race</h2>{faq_html([x for x in FAQ if (("Jeffries" in x[0] or "House" in x[0] or "Speaker" in x[0]) if chm=="house" else not ("Jeffries" in x[0] or "House" in x[0] or "Speaker" in x[0]))])}</section>'
           + foot("../"))
-    sitemap.append((path, "0.9"))
+    sitemap.append((path, "0.9", max([m["date"] for m in by(chm) if m["date"]] + [LAST])))
 
 # FAQ
-write("faq/index.html", head("Democratic Leadership Races FAQ: Schumer, Van Hollen and Jeffries", "Answers on the Senate Democratic leader vote between Chuck Schumer and Chris Van Hollen, and Hakeem Jeffries' bid for Speaker: dates, votes needed and who backs whom.",
+write("faq/index.html", head("Schumer, Van Hollen and Jeffries Leadership Race FAQ", "Answers on the Senate Democratic leader vote between Chuck Schumer and Chris Van Hollen, and Hakeem Jeffries' bid for Speaker: dates, votes needed and who backs whom.",
       "/faq/", "../", [WEBSITE, crumbs([("Tracker", "/"), ("FAQ", "/faq/")]), faq_ld])
       + mast("Questions about the Democratic leadership races", "Dates, rules and who backs whom, generated from the latest tracker data.", "../", tabs=False)
       + f'<section class="card seo">{faq_html(FAQ)}</section>' + foot_static("../"))
-sitemap.append(("/faq/", "0.8"))
+sitemap.append(("/faq/", "0.8", ALLD))
 
 # About
 about = f"""<section class="card seo"><h2>How the tracker works</h2>
@@ -333,7 +339,7 @@ about = f"""<section class="card seo"><h2>How the tracker works</h2>
 write("about/index.html", head("How the Democratic Leadership Whip Tracker Works", "How stances are sourced, scored and updated in this unofficial tracker of the Schumer vs Van Hollen and Jeffries Speaker races.",
       "/about/", "../", [WEBSITE, crumbs([("Tracker", "/"), ("How it works", "/about/")])])
       + mast("How the tracker works", "Sources, scoring and update rules.", "../", tabs=False) + about + foot_static("../"))
-sitemap.append(("/about/", "0.5"))
+sitemap.append(("/about/", "0.5", LAST))
 
 # Member pages
 for m in members:
@@ -344,8 +350,8 @@ for m in members:
         ans = f"{m['name']} has not taken a public position that we have found."
     else:
         ans = f"{lab}." + (f" Backing: {m['backing']}." if m["backing"] else "") + f" {m['summary']}"
-    t = (f"{m['name']} on Schumer vs Van Hollen | {rl} ({w}) Leader Vote Stance" if m["chamber"] == "senate"
-         else f"{m['name']} on Jeffries for Speaker | {rl} ({w}) Vote Stance")
+    t = (f"{m['name']} on Schumer vs Van Hollen | Whip Count" if m["chamber"] == "senate"
+         else f"{m['name']} on Jeffries for Speaker | Whip Count")
     d = f"{q} {ans}"[:300]
     hist = m.get("history") or []
     hist_html = ("<ol class='hist'>" + "".join(f"<li><b>{e(fmt(h.get('date')))}</b>: {e(h.get('fromLabel'))} to {e(h.get('toLabel'))}. {e(h.get('summary'))} " + (f"<a href='{e(h.get('url'))}' rel='noopener'>{e(h.get('source') or 'Source')}</a>" if h.get('url') else '') + "</li>" for h in reversed(hist)) + "</ol>") if hist else "<p class='note'>No changes recorded since tracking began on 16 November 2026.</p>"
@@ -380,7 +386,7 @@ for m in members:
                noindex=(m["stance"] is None))
           + mast(e(m["name"]), f"{e(rl)}, {e(w)}. {e(lab)}.", "../../", tabs=False) + body + foot_static("../../"))
     if m["stance"] is not None:
-        sitemap.append((f"/members/{m['id']}/", "0.6"))
+        sitemap.append((f"/members/{m['id']}/", "0.6", m["date"] or LAST))
 
 # 404, robots, sitemap, .nojekyll
 R404 = SITE + "/"
@@ -388,7 +394,21 @@ write("404.html", head("Page not found | Democratic Leadership Whip Tracker", "P
       + mast("Page not found", "That page doesn't exist. Try the tracker instead.", R404, tabs=False) + f'<p><a href="{R404}">Back to the tracker</a></p>' + foot_static(R404))
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-      + "".join(f"  <url><loc>{e(SITE + p)}</loc><lastmod>{LAST}</lastmod><changefreq>hourly</changefreq><priority>{pr}</priority></url>\n" for p, pr in sitemap) + "</urlset>\n")
+      + "".join(f"  <url><loc>{e(SITE + p)}</loc><lastmod>{lm}</lastmod><changefreq>daily</changefreq><priority>{pr}</priority></url>\n" for p, pr, lm in sitemap) + "</urlset>\n")
+# RSS feed of latest stance activity
+from email.utils import format_datetime
+def rfc(d):
+    try:
+        return format_datetime(datetime.datetime.combine(datetime.date.fromisoformat(d), datetime.time(12), tzinfo=datetime.timezone.utc))
+    except Exception:
+        return format_datetime(datetime.datetime.now(datetime.timezone.utc))
+items = []
+for ev in feed[:50]:
+    link = f"{SITE}/members/{ev.get('memberId','')}/"
+    title = f"{ev.get('name','')} ({ev.get('where','')}): {ev.get('head','')}"
+    body = (ev.get("text") or "") + (f" Source: {ev.get('source')}." if ev.get("source") else "")
+    items.append(f"<item><title>{e(title)}</title><link>{e(link)}</link><guid isPermaLink=\"false\">{e(ev.get('memberId',''))}-{e(ev.get('date',''))}-{e(ev.get('head',''))}</guid><pubDate>{rfc(ev.get('date',''))}</pubDate><description>{e(body)}</description></item>")
+write("feed.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Democratic Leadership Whip Tracker updates</title><link>{SITE}/</link><description>New and changed public stances in the Schumer vs Van Hollen and Jeffries Speaker races.</description><language>en-gb</language>{"".join(items)}</channel></rss>\n')
 write(".nojekyll", "")
 cname = os.environ.get("CNAME_DOMAIN")
 if cname:

@@ -89,17 +89,29 @@ function renderHemi(ms){
   out += `<text x="${cx}" y="${cy-14}" text-anchor="middle" font-size="12" fill="${css("--muted")}">Declared + leaning, public statements only</text>`;
   svg.innerHTML = out;
   svg.querySelectorAll("circle[data-id]").forEach(c=>{
-    c.addEventListener("mouseenter",e=>showTip(e,c.dataset.id)); c.addEventListener("mousemove",moveTip); c.addEventListener("mouseleave",hideTip);
-    c.addEventListener("click",()=>openRow(c.dataset.id)); c.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openRow(c.dataset.id);}});
+    c.addEventListener("mouseenter",e=>showTip(e,c.dataset.id)); c.addEventListener("mousemove",e=>{ if(!pinned) moveTip(e); }); c.addEventListener("mouseleave",()=>{ if(!TOUCH) hideTip(); });
+    c.addEventListener("click",(ev)=>{ if(TOUCH){ ev.stopPropagation(); pinTip(c); } else openRow(c.dataset.id); }); c.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openRow(c.dataset.id);}});
   });
 }
 function rank(m){ return ORDER.indexOf(m.stance==null?null:m.stance); }
 const tip = document.getElementById("tip");
-function showTip(e,id){ const m=members.find(x=>x.id===id); if(!m) return;
-  tip.innerHTML = `<b>${esc(m.name)}</b><span style="color:var(--muted)">${esc(where(m))} · ${esc(m.status)}</span><div style="margin-top:4px"><i class="sw" style="background:${col(m.stance)};vertical-align:-1px"></i> ${esc(stanceLabel(m))}${m.backing?` · ${esc(m.backing)}`:""}</div><div style="margin-top:4px">${esc(m.summary)}</div>${m.date?`<div style="color:var(--muted);margin-top:4px">${esc(m.source)} · ${esc(fmtDate(m.date))}</div>`:""}`;
+const TOUCH = window.matchMedia && window.matchMedia("(hover: none)").matches;
+let pinned = null;
+function pinTip(c){
+  const id = c.dataset.id; pinned = id;
+  const r = c.getBoundingClientRect();
+  showTip({clientX: r.left + r.width/2, clientY: r.top + r.height/2}, id, true);
+}
+function unpin(){ if(pinned){ pinned = null; hideTip(); } }
+document.addEventListener("click",(ev)=>{ if(pinned && !tip.contains(ev.target)) unpin(); });
+window.addEventListener("scroll",()=>{ if(pinned) unpin(); }, {passive:true});
+function showTip(e,id,isPinned){ if(pinned && !isPinned) return; const m=members.find(x=>x.id===id); if(!m) return;
+  tip.innerHTML = `<b>${esc(m.name)}</b><span style="color:var(--muted)">${esc(where(m))} · ${esc(m.status)}</span><div style="margin-top:4px"><i class="sw" style="background:${col(m.stance)};vertical-align:-1px"></i> ${esc(stanceLabel(m))}${m.backing?` · ${esc(m.backing)}`:""}</div><div style="margin-top:4px">${esc(m.summary)}</div>${m.date?`<div style="color:var(--muted);margin-top:4px">${esc(m.source)} · ${esc(fmtDate(m.date))}</div>`:""}${isPinned?`<div class="tipacts"><a href="${ROOT}members/${esc(m.id)}/">Full profile</a><button type="button" class="tipjump">Show in table</button></div>`:""}`;
+  tip.classList.toggle("pinned", !!isPinned);
+  if(isPinned){ const j = tip.querySelector(".tipjump"); if(j) j.addEventListener("click",(ev)=>{ ev.stopPropagation(); const mid=id; unpin(); openRow(mid); }); }
   tip.style.display="block"; moveTip(e); }
-function moveTip(e){ const pad=14; let x=e.clientX+pad, y=e.clientY+pad; const r=tip.getBoundingClientRect(); if(x+r.width>innerWidth-8) x=e.clientX-r.width-pad; if(y+r.height>innerHeight-8) y=e.clientY-r.height-pad; tip.style.left=x+"px"; tip.style.top=y+"px"; }
-function hideTip(){ tip.style.display="none"; }
+function moveTip(e){ const pad=14; let x=e.clientX+pad, y=e.clientY+pad; const r=tip.getBoundingClientRect(); if(x+r.width>innerWidth-8) x=e.clientX-r.width-pad; if(y+r.height>innerHeight-8) y=e.clientY-r.height-pad; x=Math.max(8,Math.min(x,innerWidth-r.width-8)); y=Math.max(8,Math.min(y,innerHeight-r.height-8)); tip.style.left=x+"px"; tip.style.top=y+"px"; }
+function hideTip(){ if(pinned) return; tip.style.display="none"; tip.classList.remove("pinned"); }
 const where = m => m.chamber==="senate" ? m.state : m.district;
 
 /* ---------- feed ---------- */
