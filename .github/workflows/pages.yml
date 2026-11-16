@@ -22,7 +22,7 @@ jobs:
       - id: pages
         uses: actions/configure-pages@v5
       - name: Build site
-        run: python build.py --site-url "${{ steps.pages.outputs.base_url }}" --out _site
+        run: python build.py --site-url "https://democraticwhiptracker.com" --out _site
         env:
           CNAME_DOMAIN: ${{ vars.CNAME_DOMAIN }}
       - uses: actions/upload-pages-artifact@v3
