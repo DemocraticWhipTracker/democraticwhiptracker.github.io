@@ -2,16 +2,17 @@
 "applied": 0,
 "feedsChecked": [
 "Web search (Schumer/Van Hollen, Jeffries speaker)",
-"Drop Site whip count",
 "Newsweek",
-"New York Sun",
-"The New Republic"
+"Fox News",
+"States Newsroom",
+"Axios",
+"NOTUS"
 ],
-"itemsScanned": 6,
+"itemsScanned": 4,
 "lastApplied": [],
-"lastRun": "2026-11-16T23:25:00Z",
+"lastRun": "2026-11-16T23:45:00Z",
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 6
+"skipped": 4
 }
