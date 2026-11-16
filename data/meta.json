@@ -1,1 +1,17 @@
-{"lastRun": "2026-11-16T18:23:00Z"}
+{
+"applied": 0,
+"feedsChecked": [
+"Web search (Schumer/Van Hollen, Jeffries speaker)",
+"Drop Site whip count",
+"Newsweek",
+"New York Sun",
+"The New Republic"
+],
+"itemsScanned": 6,
+"lastApplied": [],
+"lastRun": "2026-11-16T23:25:00Z",
+"note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
+"proposals": 0,
+"seededAt": "2026-11-16T18:15:00Z",
+"skipped": 6
+}
