@@ -4261,37 +4261,67 @@
 "via": ""
 },
 {
+"backing": null,
 "chamber": "senate",
-"confidence": "low",
-"date": "2026-11-05",
+"confidence": "high",
+"date": "2026-11-17",
+"history": [
+{
+"date": "2026-11-17",
+"from": 0,
+"fromLabel": "Undecided",
+"source": "AP",
+"summary": "Says he has not committed to Schumer or Van Hollen and wants to hear each candidate's vision.",
+"to": 0,
+"toLabel": "Undecided",
+"url": "https://www.ksat.com/news/politics/2026/11/17/van-hollens-bid-to-replace-schumer-as-leader-is-putting-pressure-on-democrats-to-take-sides/"
+}
+],
 "id": "sen-jon-ossoff",
 "name": "Jon Ossoff",
 "pct": 50,
+"quote": "I want to hear from any candidate",
 "since": 2021,
-"source": "Al Jazeera",
-"sourceUrl": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
+"source": "AP",
+"sourceUrl": "https://www.ksat.com/news/politics/2026/11/17/van-hollens-bid-to-replace-schumer-as-leader-is-putting-pressure-on-democrats-to-take-sides/",
 "stance": 0,
 "state": "GA",
 "status": "Incumbent",
-"summary": "His campaign wouldn't say whether he'd back Schumer.",
+"summary": "Says he has not committed to Schumer or Van Hollen and wants to hear each candidate's vision.",
 "timing": "Post-election",
-"via": "Drop Site whip count"
+"updated": "2026-11-17",
+"via": ""
 },
 {
+"backing": null,
 "chamber": "senate",
-"confidence": "low",
-"date": "2026-11-09",
+"confidence": "medium",
+"date": "2026-11-17",
+"history": [
+{
+"date": "2026-11-17",
+"from": 0,
+"fromLabel": "Undecided",
+"source": "AP",
+"summary": "Has met both Schumer and Van Hollen and wants more specifics, including on anti-corruption, before deciding.",
+"to": 0,
+"toLabel": "Undecided",
+"url": "https://www.ksat.com/news/politics/2026/11/17/van-hollens-bid-to-replace-schumer-as-leader-is-putting-pressure-on-democrats-to-take-sides/"
+}
+],
 "id": "sen-josh-turek",
 "name": "Josh Turek",
 "pct": 50,
-"source": "PolitiFact",
-"sourceUrl": "https://www.politifact.com/factchecks/2026/nov/09/jon-stewart/chuck-schumer-senate-candidate-recruitment/",
+"quote": "",
+"source": "AP",
+"sourceUrl": "https://www.ksat.com/news/politics/2026/11/17/van-hollens-bid-to-replace-schumer-as-leader-is-putting-pressure-on-democrats-to-take-sides/",
 "stance": 0,
 "state": "IA",
 "status": "New",
-"summary": "Declined to affirm support for Schumer. One report expected him to back Schumer.",
+"summary": "Has met both Schumer and Van Hollen and wants more specifics, including on anti-corruption, before deciding.",
 "timing": "Post-election",
-"via": "Drop Site whip count"
+"updated": "2026-11-17",
+"via": ""
 },
 {
 "backing": "Against Schumer (no pick yet)",
@@ -4736,20 +4766,35 @@
 {
 "backing": "Schumer",
 "chamber": "senate",
+"changed": "Declared for Schumer to Leaning Schumer",
 "confidence": "medium",
-"date": "2026-06-28",
+"date": "2026-11-17",
+"history": [
+{
+"date": "2026-11-17",
+"from": 2,
+"fromLabel": "Declared for Schumer",
+"source": "AP",
+"summary": "Defended Schumer after the election win, but AP reports he is still open to Van Hollen or another candidate.",
+"to": 1,
+"toLabel": "Leaning Schumer",
+"url": "https://www.ksat.com/news/politics/2026/11/17/van-hollens-bid-to-replace-schumer-as-leader-is-putting-pressure-on-democrats-to-take-sides/"
+}
+],
 "id": "sen-tim-kaine",
 "name": "Tim Kaine",
-"pct": 100,
+"pct": 75,
+"quote": "Chuck delivered an amazing win",
 "since": 2013,
-"source": "CBS Face the Nation",
-"sourceUrl": "https://www.cbsnews.com/news/face-the-nation-full-transcript-06-28-2026/",
-"stance": 2,
+"source": "AP",
+"sourceUrl": "https://www.ksat.com/news/politics/2026/11/17/van-hollens-bid-to-replace-schumer-as-leader-is-putting-pressure-on-democrats-to-take-sides/",
+"stance": 1,
 "state": "VA",
 "status": "Incumbent",
-"summary": "Affirmed support in a June interview, before the challenge. No newer statement found.",
-"timing": "Pre-election",
-"via": "Drop Site whip count"
+"summary": "Defended Schumer after the election win, but AP reports he is still open to Van Hollen or another candidate.",
+"timing": "Post-election",
+"updated": "2026-11-17",
+"via": ""
 },
 {
 "backing": "Against Schumer (no pick yet)",

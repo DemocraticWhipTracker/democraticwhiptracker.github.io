@@ -1,18 +1,21 @@
 {
-"applied": 0,
+"applied": 1,
 "feedsChecked": [
 "Web search (Schumer/Van Hollen, Jeffries speaker, race calls)",
+"AP (via KSAT)",
+"Al Jazeera",
 "Newsweek",
-"HNGN",
-"ABC News",
 "Axios",
-"The Hill (whip list unreachable)"
+"The Hill (search only)"
 ],
-"itemsScanned": 12,
-"lastApplied": [],
-"lastRun": "2026-11-17T15:19:30Z",
+"itemsScanned": 14,
+"lastApplied": [
+"Tim Kaine: Leaning Schumer"
+],
+"lastRun": "2026-11-17T23:45:26Z",
+"newsAdded": 7,
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 1
+"skipped": 4
 }
