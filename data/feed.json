@@ -1,5 +1,57 @@
 [
 {
+"chamber": "senate",
+"date": "2026-11-17",
+"head": "Backs Van Hollen",
+"kind": "update",
+"memberId": "sen-chris-van-hollen",
+"name": "Chris Van Hollen",
+"source": "The Hill",
+"stance": -2,
+"text": "Challenging Schumer. Now says he has locked down 15 votes, though only four colleagues back him publicly.",
+"url": "https://thehill.com/homenews/senate/6223801-democrats-clash-majority-leader-election/",
+"where": "MD"
+},
+{
+"chamber": "senate",
+"date": "2026-11-16",
+"head": "Declared for Schumer",
+"kind": "change",
+"memberId": "sen-mazie-hirono",
+"name": "Mazie Hirono",
+"source": "The Hill",
+"stance": 2,
+"text": "Backs Schumer for leader, citing her long history with him, while praising Van Hollen.",
+"url": "https://thehill.com/homenews/senate/6223162-whip-schumer-van-hollen-leadership-race/",
+"where": "HI"
+},
+{
+"chamber": "senate",
+"date": "2026-11-16",
+"head": "Undecided",
+"kind": "change",
+"memberId": "sen-john-hickenlooper",
+"name": "John Hickenlooper",
+"source": "The Hill",
+"stance": 0,
+"text": "Publicly undecided. Credits Schumer for the Senate gains but says it is healthy to review how the caucus works.",
+"url": "https://thehill.com/homenews/senate/6223162-whip-schumer-van-hollen-leadership-race/",
+"where": "CO"
+},
+{
+"chamber": "senate",
+"date": "2026-11-16",
+"head": "Declared for Schumer",
+"kind": "change",
+"memberId": "sen-richard-blumenthal",
+"name": "Richard Blumenthal",
+"source": "The Hill",
+"stance": 2,
+"text": "Listed by The Hill's whip count as publicly backing Schumer, resolving earlier conflicting reports.",
+"url": "https://thehill.com/homenews/senate/6223162-whip-schumer-van-hollen-leadership-race/",
+"where": "CT"
+},
+{
 "chamber": "house",
 "date": "2026-11-16",
 "head": "Senator backs Jeffries",

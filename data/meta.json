@@ -1,23 +1,25 @@
 {
-"applied": 0,
+"applied": 5,
 "feedsChecked": [
 "Web search (Schumer/Van Hollen, Jeffries speaker)",
-"The New Republic",
-"ABC News",
+"The Hill whip list",
 "The Hill",
-"Fox News",
-"Anadolu",
-"Political Wire / Punchbowl News",
-"Common Dreams",
-"Drop Site whip count",
-"Primary Democrats tracker",
-"On Point Politics tracker"
+"ABC News",
+"Axios",
+"Newsweek",
+"Fox News"
 ],
-"itemsScanned": 14,
-"lastApplied": [],
-"lastRun": "2026-11-17T00:21:58Z",
+"itemsScanned": 9,
+"lastApplied": [
+"Mazie Hirono: Declared for Schumer",
+"John Hickenlooper: Undecided",
+"Richard Blumenthal: Declared for Schumer",
+"Chris Van Hollen: evidence updated",
+"Victoria Broderick: race called"
+],
+"lastRun": "2026-11-17T12:45:39Z",
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 14
+"skipped": 4
 }
