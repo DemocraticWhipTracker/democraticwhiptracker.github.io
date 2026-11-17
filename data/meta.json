@@ -2,17 +2,17 @@
 "applied": 0,
 "feedsChecked": [
 "Web search (Schumer/Van Hollen, Jeffries speaker, race calls)",
-"The Hill (whip list unreachable)",
-"Talking Points Memo",
 "Newsweek",
-"Uprise RI",
-"Axios"
+"HNGN",
+"ABC News",
+"Axios",
+"The Hill (whip list unreachable)"
 ],
-"itemsScanned": 14,
+"itemsScanned": 12,
 "lastApplied": [],
-"lastRun": "2026-11-17T14:21:02Z",
+"lastRun": "2026-11-17T15:19:30Z",
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 5
+"skipped": 1
 }
