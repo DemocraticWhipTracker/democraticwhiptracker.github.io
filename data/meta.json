@@ -2,17 +2,22 @@
 "applied": 0,
 "feedsChecked": [
 "Web search (Schumer/Van Hollen, Jeffries speaker)",
-"Newsweek",
+"The New Republic",
+"ABC News",
+"The Hill",
 "Fox News",
-"States Newsroom",
-"Axios",
-"NOTUS"
+"Anadolu",
+"Political Wire / Punchbowl News",
+"Common Dreams",
+"Drop Site whip count",
+"Primary Democrats tracker",
+"On Point Politics tracker"
 ],
-"itemsScanned": 4,
+"itemsScanned": 14,
 "lastApplied": [],
-"lastRun": "2026-11-16T23:45:00Z",
+"lastRun": "2026-11-17T00:21:58Z",
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 4
+"skipped": 14
 }
