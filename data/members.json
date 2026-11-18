@@ -672,20 +672,34 @@
 {
 "backing": "Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-09",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "MA-6",
+"history": [
+{
+"date": "2026-11-18",
+"from": 2,
+"fromLabel": "Declared for Jeffries",
+"source": "ABC News",
+"summary": "Told ABC News he supports Jeffries for Speaker.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://abcnews.com/Politics/hakeem-jeffries-poised-become-black-speaker-house/story?id=138119938"
+}
+],
 "id": "hse-dan-koh",
 "name": "Dan Koh",
 "pct": 100,
-"source": "The Washington Sun",
-"sourceUrl": "https://www.washingtonsun.com/newsletters/just-kidding",
+"quote": "",
+"source": "ABC News",
+"sourceUrl": "https://abcnews.com/Politics/hakeem-jeffries-poised-become-black-speaker-house/story?id=138119938",
 "stance": 2,
 "state": "MA",
 "status": "New",
-"summary": "Reported as backing Jeffries for Speaker.",
+"summary": "Told ABC News he supports Jeffries for Speaker.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -2817,21 +2831,35 @@
 {
 "backing": "Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-10",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "CA-33",
+"history": [
+{
+"date": "2026-11-18",
+"from": 2,
+"fromLabel": "Declared for Jeffries",
+"source": "ABC News",
+"summary": "Says the outcome of the Speaker race is not in question, backing Jeffries.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://abcnews.com/Politics/hakeem-jeffries-poised-become-black-speaker-house/story?id=138119938"
+}
+],
 "id": "hse-pete-aguilar",
 "name": "Pete Aguilar",
 "pct": 100,
+"quote": "the outcome is not in question",
 "since": 2015,
-"source": "Spectrum News",
-"sourceUrl": "https://spectrumlocalnews.com/us/snplus/politics/2026/11/10/house-democratic-caucus-outlines-three-priorities-with-new-majority-next-year",
+"source": "ABC News",
+"sourceUrl": "https://abcnews.com/Politics/hakeem-jeffries-poised-become-black-speaker-house/story?id=138119938",
 "stance": 2,
 "state": "CA",
 "status": "Incumbent",
-"summary": "Reported as backing Jeffries for Speaker.",
+"summary": "Says the outcome of the Speaker race is not in question, backing Jeffries.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -3471,21 +3499,35 @@
 {
 "backing": "Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-10",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "CA-36",
+"history": [
+{
+"date": "2026-11-18",
+"from": 2,
+"fromLabel": "Declared for Jeffries",
+"source": "ABC News",
+"summary": "Caucus vice chair who called Jeffries an amazing leader and says Democrats will elect him Speaker.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://abcnews.com/Politics/hakeem-jeffries-poised-become-black-speaker-house/story?id=138119938"
+}
+],
 "id": "hse-ted-lieu",
 "name": "Ted Lieu",
 "pct": 100,
+"quote": "an amazing leader",
 "since": 2015,
-"source": "Spectrum News",
-"sourceUrl": "https://spectrumlocalnews.com/us/snplus/politics/2026/11/10/house-democratic-caucus-outlines-three-priorities-with-new-majority-next-year",
+"source": "ABC News",
+"sourceUrl": "https://abcnews.com/Politics/hakeem-jeffries-poised-become-black-speaker-house/story?id=138119938",
 "stance": 2,
 "state": "CA",
 "status": "Incumbent",
-"summary": "Reported as backing Jeffries for Speaker.",
+"summary": "Caucus vice chair who called Jeffries an amazing leader and says Democrats will elect him Speaker.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",

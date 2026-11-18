@@ -1,18 +1,23 @@
 {
 "applied": 0,
 "feedsChecked": [
-"Web search (Schumer/Van Hollen, Jeffries caucus vote, Alaska race call)",
-"PBS NewsHour (AP copy already in feed)",
-"Washington Examiner (recorded vote, already covered)",
-"Fox News (11 Nov, outside window)",
-"Axios, Semafor, Washington Post, MS NOW (blocked)"
+"Web search (Schumer/Van Hollen, Jeffries caucus vote, race calls)",
+"ABC News (Jeffries 18 Nov; Van Hollen This Week 15 Nov)",
+"The Hill via Yahoo (Schumer claims votes, 17 Nov)",
+"AFP via Yahoo",
+"Fox News",
+"The New Republic (older than 72h)",
+"Washington Post 17 Nov (blocked)",
+"MS NOW (blocked)",
+"Axios 18 Nov (blocked)",
+"The Hill 6226192 (blocked)"
 ],
-"itemsScanned": 12,
+"itemsScanned": 14,
 "lastApplied": [],
-"lastRun": "2026-11-18T10:20:08Z",
-"newsAdded": 0,
+"lastRun": "2026-11-18T12:55:08Z",
+"newsAdded": 3,
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 8
+"skipped": 6
 }
