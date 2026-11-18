@@ -1,16 +1,18 @@
 {
 "applied": 0,
 "feedsChecked": [
-"Web search (Schumer/Van Hollen, Jeffries caucus vote, race calls)",
-"Axios, Washington Times, Washington Post (found, not fetched: page fetching unavailable this run)",
-"PBS/CBS Baltimore (AP copy already in feed)"
+"Web search (Schumer/Van Hollen, Jeffries caucus vote, Alaska race call)",
+"PBS NewsHour (AP copy already in feed)",
+"Washington Examiner (recorded vote, already covered)",
+"Fox News (11 Nov, outside window)",
+"Axios, Semafor, Washington Post, MS NOW (blocked)"
 ],
-"itemsScanned": 10,
+"itemsScanned": 12,
 "lastApplied": [],
-"lastRun": "2026-11-18T09:18:59Z",
+"lastRun": "2026-11-18T10:20:08Z",
 "newsAdded": 0,
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 10
+"skipped": 8
 }
