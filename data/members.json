@@ -20,21 +20,37 @@
 "via": "Primary Democrats tracker"
 },
 {
+"backing": "Against Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-11",
+"changed": "Undecided to Opposed to Jeffries",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "NJ-12",
+"history": [
+{
+"date": "2026-11-18",
+"from": 0,
+"to": -2,
+"fromLabel": "Undecided",
+"toLabel": "Opposed to Jeffries",
+"summary": "Voted no on Jeffries in the caucus vote and explained why in a joint statement with six other incoming Democrats.",
+"source": "The Hill",
+"url": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/"
+}
+],
 "id": "hse-adam-hamawy",
 "name": "Adam Hamawy",
-"pct": 50,
-"source": "Fox News",
-"sourceUrl": "https://www.foxnews.com/politics/hakeem-jeffries-faces-progressive-holdouts-no-rival-house-speaker-race-takes-shape",
-"stance": 0,
+"pct": 0,
+"quote": "",
+"source": "The Hill",
+"sourceUrl": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/",
+"stance": -2,
 "state": "NJ",
 "status": "New",
-"summary": "Publicly uncommitted on Jeffries.",
+"summary": "One of seven incoming Democrats who voted no on Jeffries in the 18 Nov caucus vote and said so in a joint statement. They cited unfinished talks on Medicare for All, Gaza, immigration enforcement and money in politics.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -565,22 +581,38 @@
 "summary": "No public statement found."
 },
 {
+"backing": "Against Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-11",
+"changed": "Undecided to Opposed to Jeffries",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "PA-3",
 "faction": "DSA-backed",
+"history": [
+{
+"date": "2026-11-18",
+"from": 0,
+"to": -2,
+"fromLabel": "Undecided",
+"toLabel": "Opposed to Jeffries",
+"summary": "Voted no on Jeffries in the caucus vote and explained why in a joint statement with six other incoming Democrats.",
+"source": "The Hill",
+"url": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/"
+}
+],
 "id": "hse-chris-rabb",
 "name": "Chris Rabb",
-"pct": 50,
-"source": "CBS News",
-"sourceUrl": "https://www.cbsnews.com/video/rep-elect-chris-rabb-1-of-6-dsa-newcomers-to-the-house-on-his-plans-for-congress/",
-"stance": 0,
+"pct": 0,
+"quote": "",
+"source": "The Hill",
+"sourceUrl": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/",
+"stance": -2,
 "state": "PA",
 "status": "New",
-"summary": "Publicly uncommitted on Jeffries.",
+"summary": "One of seven incoming Democrats who voted no on Jeffries in the 18 Nov caucus vote and said so in a joint statement. They cited unfinished talks on Medicare for All, Gaza, immigration enforcement and money in politics.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -649,21 +681,37 @@
 "via": "Primary Democrats tracker"
 },
 {
+"backing": "Against Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-09",
+"changed": "Undecided to Opposed to Jeffries",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "NY-7",
+"history": [
+{
+"date": "2026-11-18",
+"from": 0,
+"to": -2,
+"fromLabel": "Undecided",
+"toLabel": "Opposed to Jeffries",
+"summary": "Voted no on Jeffries in the caucus vote and explained why in a joint statement with six other incoming Democrats.",
+"source": "The Hill",
+"url": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/"
+}
+],
 "id": "hse-claire-valdez",
 "name": "Claire Valdez",
-"pct": 50,
-"source": "Washington Examiner",
-"sourceUrl": "https://www.washingtonexaminer.com/news/4796952/new-bloc-progressive-democrats-not-commit-hakeem-jeffries-house-speaker/",
-"stance": 0,
+"pct": 0,
+"quote": "",
+"source": "The Hill",
+"sourceUrl": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/",
+"stance": -2,
 "state": "NY",
 "status": "New",
-"summary": "Publicly uncommitted on Jeffries.",
+"summary": "One of seven incoming Democrats who voted no on Jeffries in the 18 Nov caucus vote and said so in a joint statement. They cited unfinished talks on Medicare for All, Gaza, immigration enforcement and money in politics.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -742,21 +790,37 @@
 "via": "Primary Democrats tracker"
 },
 {
+"backing": "Against Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-09",
+"changed": "Undecided to Opposed to Jeffries",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "NY-13",
+"history": [
+{
+"date": "2026-11-18",
+"from": 0,
+"to": -2,
+"fromLabel": "Undecided",
+"toLabel": "Opposed to Jeffries",
+"summary": "Voted no on Jeffries in the caucus vote and explained why in a joint statement with six other incoming Democrats.",
+"source": "The Hill",
+"url": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/"
+}
+],
 "id": "hse-darializa-avila-chevalier",
 "name": "Darializa Avila Chevalier",
-"pct": 50,
-"source": "Washington Examiner",
-"sourceUrl": "https://www.washingtonexaminer.com/news/4796952/new-bloc-progressive-democrats-not-commit-hakeem-jeffries-house-speaker/",
-"stance": 0,
+"pct": 0,
+"quote": "",
+"source": "The Hill",
+"sourceUrl": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/",
+"stance": -2,
 "state": "NY",
 "status": "New",
-"summary": "Publicly uncommitted on Jeffries.",
+"summary": "One of seven incoming Democrats who voted no on Jeffries in the 18 Nov caucus vote and said so in a joint statement. They cited unfinished talks on Medicare for All, Gaza, immigration enforcement and money in politics.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -940,22 +1004,38 @@
 "summary": "No public statement found."
 },
 {
+"backing": "Against Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-03",
+"changed": "Undecided to Opposed to Jeffries",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "MI-13",
 "faction": "DSA-backed",
+"history": [
+{
+"date": "2026-11-18",
+"from": 0,
+"to": -2,
+"fromLabel": "Undecided",
+"toLabel": "Opposed to Jeffries",
+"summary": "Voted no on Jeffries in the caucus vote and explained why in a joint statement with six other incoming Democrats.",
+"source": "The Hill",
+"url": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/"
+}
+],
 "id": "hse-donavan-mckinney",
 "name": "Donavan McKinney",
-"pct": 50,
-"source": "MS NOW",
-"sourceUrl": "https://www.ms.now/news/dsa-democratic-socialists-house-2026-midterm-elections",
-"stance": 0,
+"pct": 0,
+"quote": "",
+"source": "The Hill",
+"sourceUrl": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/",
+"stance": -2,
 "state": "MI",
 "status": "New",
-"summary": "Publicly uncommitted on Jeffries.",
-"timing": "Pre-election",
-"via": "Primary Democrats tracker"
+"summary": "One of seven incoming Democrats who voted no on Jeffries in the 18 Nov caucus vote and said so in a joint statement. They cited unfinished talks on Medicare for All, Gaza, immigration enforcement and money in politics.",
+"timing": "Post-election",
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -1170,14 +1250,37 @@
 "via": "Primary Democrats tracker"
 },
 {
+"backing": "Against Jeffries",
 "chamber": "house",
+"changed": "No public position to Opposed to Jeffries",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "TX-30",
+"history": [
+{
+"date": "2026-11-18",
+"from": null,
+"to": -2,
+"fromLabel": "No public position",
+"toLabel": "Opposed to Jeffries",
+"summary": "Voted no on Jeffries in the caucus vote and explained why in a joint statement with six other incoming Democrats.",
+"source": "The Hill",
+"url": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/"
+}
+],
 "id": "hse-frederick-haynes-iii",
 "name": "Frederick Haynes III",
-"stance": null,
+"pct": 0,
+"quote": "",
+"source": "The Hill",
+"sourceUrl": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/",
+"stance": -2,
 "state": "TX",
 "status": "New",
-"summary": "No public statement found."
+"summary": "One of seven incoming Democrats who voted no on Jeffries in the 18 Nov caucus vote and said so in a joint statement. They cited unfinished talks on Medicare for All, Gaza, immigration enforcement and money in politics.",
+"timing": "Post-election",
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -2536,21 +2639,37 @@
 "summary": "No public statement found."
 },
 {
+"backing": "Against Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-11",
+"changed": "Undecided to Opposed to Jeffries",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "CO-1",
+"history": [
+{
+"date": "2026-11-18",
+"from": 0,
+"to": -2,
+"fromLabel": "Undecided",
+"toLabel": "Opposed to Jeffries",
+"summary": "Voted no on Jeffries in the caucus vote and explained why in a joint statement with six other incoming Democrats.",
+"source": "The Hill",
+"url": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/"
+}
+],
 "id": "hse-melat-kiros",
 "name": "Melat Kiros",
-"pct": 50,
-"source": "Fox News",
-"sourceUrl": "https://www.foxnews.com/politics/hakeem-jeffries-faces-progressive-holdouts-no-rival-house-speaker-race-takes-shape",
-"stance": 0,
+"pct": 0,
+"quote": "",
+"source": "The Hill",
+"sourceUrl": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/",
+"stance": -2,
 "state": "CO",
 "status": "New",
-"summary": "Publicly uncommitted on Jeffries.",
+"summary": "One of seven incoming Democrats who voted no on Jeffries in the 18 Nov caucus vote and said so in a joint statement. They cited unfinished talks on Medicare for All, Gaza, immigration enforcement and money in politics.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",

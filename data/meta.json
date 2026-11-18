@@ -1,26 +1,26 @@
 {
-"applied": 1,
+"applied": 7,
 "feedsChecked": [
-"Web search (Jeffries nomination, Schumer/Van Hollen, Alaska Senate)",
-"KCBY/TNND 18 Nov",
-"The Banner 17 Nov",
-"New York Sun 18 Nov (lede only)",
-"USA Today via WISC 18 Nov",
-"Data for Progress 16 Nov",
-"Forever Cumberland 18 Nov (duplicate)",
-"The Hill whip list (blocked)",
-"The Hill 6226192 (blocked)",
-"MS NOW (blocked)",
-"NPR, NBC, Washington Post, Colorado Sun, X (blocked)"
+"The Hill 18 Nov (blocked, via search)",
+"ABC News 18 Nov",
+"Newsweek 18 Nov",
+"Truthout 18 Nov",
+"Washington Post 18 Nov"
 ],
-"itemsScanned": 16,
+"itemsScanned": 8,
 "lastApplied": [
-"Angela Alsobrooks: Declared for Schumer (conflicting reports, confidence low)"
+"Darializa Avila Chevalier: Opposed to Jeffries",
+"Adam Hamawy: Opposed to Jeffries",
+"Frederick Haynes III: Opposed to Jeffries",
+"Melat Kiros: Opposed to Jeffries",
+"Donavan McKinney: Opposed to Jeffries",
+"Chris Rabb: Opposed to Jeffries",
+"Claire Valdez: Opposed to Jeffries"
 ],
-"lastRun": "2026-11-18T16:21:13Z",
-"newsAdded": 4,
+"lastRun": "2026-11-18T21:30:00Z",
+"newsAdded": 0,
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 7
+"skipped": 0
 }
