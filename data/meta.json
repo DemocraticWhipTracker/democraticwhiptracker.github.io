@@ -1,22 +1,21 @@
 {
 "applied": 0,
 "feedsChecked": [
-"Web search (Schumer/Van Hollen, Jeffries speaker, challengers, race calls)",
-"AP (via KSAT/PBS/Washington Post)",
-"The Hill",
-"Newsweek",
-"AFP (via Prothom Alo)",
-"Alaska Public Media",
-"Axios (blocked)",
-"MS NOW (blocked)",
-"Manila Times (blocked)"
+"Web search (Schumer/Van Hollen, Jeffries speaker, race calls)",
+"AP (via PBS)",
+"AFP (via Yahoo)",
+"Fox News",
+"The Washington Post (blocked)",
+"The Hill live updates (blocked)",
+"Mediaite (blocked)",
+"Axios (blocked)"
 ],
-"itemsScanned": 7,
+"itemsScanned": 11,
 "lastApplied": [],
-"lastRun": "2026-11-18T03:19:26Z",
-"newsAdded": 0,
+"lastRun": "2026-11-18T04:20:02Z",
+"newsAdded": 1,
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 7
+"skipped": 10
 }

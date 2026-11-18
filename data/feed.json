@@ -1,5 +1,19 @@
 [
 {
+"chamber": "house",
+"date": "2026-11-17",
+"head": "News: Jeffries has no declared rival in caucus speaker vote",
+"kind": "news",
+"memberId": "hse-hakeem-jeffries",
+"name": "Hakeem Jeffries",
+"source": "AFP (via Yahoo News)",
+"stance": 2,
+"text": "AFP reports Jeffries faces no declared challenger in Wednesday's closed-door caucus vote, though some new progressives are withholding support. The formal floor vote is on 3 January.",
+"tier": "news",
+"url": "https://www.yahoo.com/news/politics/articles/democrats-eye-first-black-us-013519398.html",
+"where": "NY-8"
+},
+{
 "chamber": "senate",
 "date": "2026-11-17",
 "head": "On record: Schumer says his focus is on 2027, not 2028",
