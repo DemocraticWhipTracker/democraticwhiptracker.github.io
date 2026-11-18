@@ -70,6 +70,48 @@
 "where": "AZ-3"
 },
 {
+"chamber": "senate",
+"date": "2026-11-17",
+"head": "Undecided",
+"kind": "update",
+"memberId": "sen-ben-ray-lujan",
+"name": "Ben Ray Luján",
+"source": "Roll Call",
+"stance": 0,
+"text": "Declined to say who he backs and wants commitments from both candidates. Wants the vote kept in December.",
+"tier": "confirmed",
+"url": "https://www.rollcall.com/2026/11/17/senate-democrats-leadership-vote",
+"where": "NM"
+},
+{
+"chamber": "senate",
+"date": "2026-11-17",
+"head": "Undecided",
+"kind": "update",
+"memberId": "sen-martin-heinrich",
+"name": "Martin Heinrich",
+"source": "Roll Call",
+"stance": 0,
+"text": "Still not saying who he backs. Wants to hear from the incoming freshman senators first.",
+"tier": "confirmed",
+"url": "https://www.rollcall.com/2026/11/17/senate-democrats-leadership-vote",
+"where": "NM"
+},
+{
+"chamber": "senate",
+"date": "2026-11-17",
+"head": "News: Senate Democrats keep leader vote on 1 December",
+"kind": "news",
+"memberId": "sen-chuck-schumer",
+"name": "Chuck Schumer",
+"source": "Roll Call",
+"stance": 2,
+"text": "Senate Democrats pushed back on talk of an earlier leadership vote and plan to hold it on 1 December, most likely by secret ballot. Roll Call puts the winning number at 29 if Peltola holds her Alaska lead.",
+"tier": "news",
+"url": "https://www.rollcall.com/2026/11/17/senate-democrats-leadership-vote",
+"where": "NY"
+},
+{
 "chamber": "house",
 "date": "2026-11-17",
 "head": "On record: Jeffries says the caucus will work its will",

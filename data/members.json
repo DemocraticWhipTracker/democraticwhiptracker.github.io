@@ -3927,21 +3927,36 @@
 "via": ""
 },
 {
+"backing": null,
 "chamber": "senate",
-"confidence": "low",
-"date": "2026-11-02",
+"confidence": "medium",
+"date": "2026-11-17",
+"history": [
+{
+"date": "2026-11-17",
+"from": 0,
+"fromLabel": "Undecided",
+"source": "Roll Call",
+"summary": "Declined to say who he backs and wants commitments from both candidates. Wants the vote kept in December.",
+"to": 0,
+"toLabel": "Undecided",
+"url": "https://www.rollcall.com/2026/11/17/senate-democrats-leadership-vote"
+}
+],
 "id": "sen-ben-ray-lujan",
 "name": "Ben Ray Luján",
 "pct": 50,
+"quote": "They should not be moved up.",
 "since": 2009,
-"source": "WCAX",
-"sourceUrl": "https://www.wcax.com/2026/10/12/chuck-schumer-has-broad-support-his-caucus-midterms-could-decide-his-future-leader/",
+"source": "Roll Call",
+"sourceUrl": "https://www.rollcall.com/2026/11/17/senate-democrats-leadership-vote",
 "stance": 0,
 "state": "NM",
 "status": "Incumbent",
-"summary": "No pledge found. Asked who was running against Schumer.",
-"timing": "Pre-election",
-"via": "Drop Site whip count"
+"summary": "Declined to say who he backs and wants commitments from both candidates. Wants the vote kept in December.",
+"timing": "Post-election",
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "backing": "Van Hollen",
@@ -4472,21 +4487,36 @@
 "timing": "Post-election"
 },
 {
+"backing": null,
 "chamber": "senate",
 "confidence": "medium",
-"date": "2026-11-10",
+"date": "2026-11-17",
+"history": [
+{
+"date": "2026-11-17",
+"from": 0,
+"fromLabel": "Undecided",
+"source": "Roll Call",
+"summary": "Still not saying who he backs. Wants to hear from the incoming freshman senators first.",
+"to": 0,
+"toLabel": "Undecided",
+"url": "https://www.rollcall.com/2026/11/17/senate-democrats-leadership-vote"
+}
+],
 "id": "sen-martin-heinrich",
 "name": "Martin Heinrich",
 "pct": 50,
+"quote": "I want to hear from the freshman class as well.",
 "since": 2009,
-"source": "Punchbowl News",
-"sourceUrl": "https://punchbowl.news/article/washington/despite-grumbling-thune-poised-for-leadership/",
+"source": "Roll Call",
+"sourceUrl": "https://www.rollcall.com/2026/11/17/senate-democrats-leadership-vote",
 "stance": 0,
 "state": "NM",
 "status": "Incumbent",
-"summary": "Not committing.",
+"summary": "Still not saying who he backs. Wants to hear from the incoming freshman senators first.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "senate",
