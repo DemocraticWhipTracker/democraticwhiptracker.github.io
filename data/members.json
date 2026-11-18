@@ -520,15 +520,38 @@
 "summary": "No public statement found."
 },
 {
+"backing": "Jeffries",
 "chamber": "house",
+"changed": "No public position to Declared for Jeffries",
+"confidence": "medium",
+"date": "2026-11-18",
 "district": "ME-1",
+"history": [
+{
+"date": "2026-11-18",
+"from": null,
+"fromLabel": "No public position",
+"source": "Reuters (via WHTC)",
+"summary": "Reuters describes her as a Jeffries supporter.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://whtc.com/2026/11/18/speaker-vote-gives-progressive-democrats-a-chance-to-vent-at-hakeem-jeffries/"
+}
+],
 "id": "hse-chellie-pingree",
 "name": "Chellie Pingree",
+"pct": 100,
+"quote": "",
 "since": 2009,
-"stance": null,
+"source": "Reuters (via WHTC)",
+"sourceUrl": "https://whtc.com/2026/11/18/speaker-vote-gives-progressive-democrats-a-chance-to-vent-at-hakeem-jeffries/",
+"stance": 2,
 "state": "ME",
 "status": "Incumbent",
-"summary": "No public statement found."
+"summary": "Reuters describes her as a Jeffries supporter. She has been talking to incoming Democrats about the Speaker vote.",
+"timing": "Post-election",
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -3720,21 +3743,35 @@
 {
 "backing": "Jeffries",
 "chamber": "house",
-"changed": "Moved from leaning against",
-"confidence": "low",
-"date": "2026-11-10",
+"changed": "Leaning Jeffries to Declared for Jeffries",
+"confidence": "medium",
+"date": "2026-11-18",
 "district": "MI-7",
+"history": [
+{
+"date": "2026-11-18",
+"from": 1,
+"fromLabel": "Leaning Jeffries",
+"source": "Reuters (via WHTC)",
+"summary": "Reuters reports he will keep his July pledge to back Jeffries.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://whtc.com/2026/11/18/speaker-vote-gives-progressive-democrats-a-chance-to-vent-at-hakeem-jeffries/"
+}
+],
 "id": "hse-william-lawrence",
 "name": "William Lawrence",
-"pct": 75,
-"source": "Democracy Now!",
-"sourceUrl": "https://www.democracynow.org/2026/11/10/will_lawrence_michigan_data_centers_midterms",
-"stance": 1,
+"pct": 100,
+"quote": "I do hope to hear a more ambitious agenda",
+"source": "Reuters (via WHTC)",
+"sourceUrl": "https://whtc.com/2026/11/18/speaker-vote-gives-progressive-democrats-a-chance-to-vent-at-hakeem-jeffries/",
+"stance": 2,
 "state": "MI",
 "status": "New",
-"summary": "Latest report has him backing Jeffries. Earlier coverage listed him as leaning against.",
+"summary": "Reuters reports he has said since July he would back Jeffries and intends to keep his word, while wanting a bolder agenda.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -3902,20 +3939,35 @@
 {
 "backing": "Schumer",
 "chamber": "senate",
-"confidence": "medium",
-"date": "2026-11-02",
+"changed": "Conflicting reports",
+"confidence": "low",
+"date": "2026-11-17",
+"history": [
+{
+"date": "2026-11-17",
+"from": 2,
+"fromLabel": "Declared for Schumer",
+"source": "The Banner",
+"summary": "Conflicting reports: The Banner says her office would not clarify her position, against POLITICO's earlier report that she backs Schumer.",
+"to": 2,
+"toLabel": "Declared for Schumer",
+"url": "https://www.thebanner.com/politics-power/national-politics/alsobrooks-van-hollen-schumer-colom-HDZVC2A7FFGPXLRN57EYPKSUXM/"
+}
+],
 "id": "sen-angela-alsobrooks",
 "name": "Angela Alsobrooks",
 "pct": 100,
+"quote": "We'll figure it out.",
 "since": 2025,
-"source": "POLITICO",
-"sourceUrl": "https://www.yahoo.com/news/politics/articles/chuck-schumer-leadership-hopes-run-094500215.html",
+"source": "The Banner (conflicts with POLITICO, 2 Nov)",
+"sourceUrl": "https://www.thebanner.com/politics-power/national-politics/alsobrooks-van-hollen-schumer-colom-HDZVC2A7FFGPXLRN57EYPKSUXM/",
 "stance": 2,
 "state": "MD",
 "status": "Incumbent",
-"summary": "Publicly backed Schumer before her state colleague Van Hollen entered the race.",
-"timing": "Pre-election",
-"via": "Primary Democrats tracker"
+"summary": "POLITICO reported on 2 Nov that she backs Schumer, but The Banner reports her office declined to clarify her position on 17 Nov and Punchbowl lists her as uncommitted.",
+"timing": "Post-election",
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "backing": "Schumer",

@@ -1,23 +1,26 @@
 {
-"applied": 0,
+"applied": 1,
 "feedsChecked": [
-"Web search (Schumer/Van Hollen, Jeffries caucus vote, race calls)",
-"ABC News (Jeffries 18 Nov; Van Hollen This Week 15 Nov)",
-"The Hill via Yahoo (Schumer claims votes, 17 Nov)",
-"AFP via Yahoo",
-"Fox News",
-"The New Republic (older than 72h)",
-"Washington Post 17 Nov (blocked)",
+"Web search (Jeffries nomination, Schumer/Van Hollen, Alaska Senate)",
+"KCBY/TNND 18 Nov",
+"The Banner 17 Nov",
+"New York Sun 18 Nov (lede only)",
+"USA Today via WISC 18 Nov",
+"Data for Progress 16 Nov",
+"Forever Cumberland 18 Nov (duplicate)",
+"The Hill whip list (blocked)",
+"The Hill 6226192 (blocked)",
 "MS NOW (blocked)",
-"Axios 18 Nov (blocked)",
-"The Hill 6226192 (blocked)"
+"NPR, NBC, Washington Post, Colorado Sun, X (blocked)"
 ],
-"itemsScanned": 14,
-"lastApplied": [],
-"lastRun": "2026-11-18T12:55:08Z",
-"newsAdded": 3,
+"itemsScanned": 16,
+"lastApplied": [
+"Angela Alsobrooks: Declared for Schumer (conflicting reports, confidence low)"
+],
+"lastRun": "2026-11-18T16:21:13Z",
+"newsAdded": 4,
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 6
+"skipped": 7
 }
