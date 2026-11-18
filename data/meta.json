@@ -1,17 +1,21 @@
 {
 "applied": 0,
 "feedsChecked": [
-"Web search (Schumer/Van Hollen, Jeffries speaker caucus vote)",
-"AP syndications (already in feed)",
-"The Hill (blocked)",
+"Web search (Schumer/Van Hollen, Jeffries caucus vote, race calls)",
+"AP via KSAT (already in feed)",
+"WECT (NC-7 concession)",
+"WUNC/WFAE (NC-3 result)",
+"Washington Post (blocked)",
+"MS NOW (blocked)",
+"NPR (blocked)",
 "Axios (blocked)"
 ],
-"itemsScanned": 6,
+"itemsScanned": 9,
 "lastApplied": [],
-"lastRun": "2026-11-18T06:18:56Z",
-"newsAdded": 0,
+"lastRun": "2026-11-18T07:20:09Z",
+"newsAdded": 1,
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 6
+"skipped": 8
 }

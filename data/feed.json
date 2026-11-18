@@ -455,6 +455,20 @@
 "where": "OH-15"
 },
 {
+"chamber": "house",
+"date": "2026-11-16",
+"head": "News: Hardy concedes NC-7 to Rouzer, seat stays Republican",
+"kind": "news",
+"memberId": "hse-hakeem-jeffries",
+"name": "Hakeem Jeffries",
+"source": "WECT",
+"stance": 2,
+"text": "Democrat Kimberly Hardy conceded the North Carolina 7th District race to Republican David Rouzer, saying a recount could not close the gap of about 2,300 votes.",
+"tier": "news",
+"url": "https://www.wect.com/2026/11/16/hardy-concedes-us-house-district-7-race-rouzer/",
+"where": "NY-8"
+},
+{
 "chamber": "senate",
 "date": "2026-11-15",
 "head": "Undecided",

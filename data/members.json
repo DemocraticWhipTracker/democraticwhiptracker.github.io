@@ -2049,16 +2049,6 @@
 },
 {
 "chamber": "house",
-"district": "NC-7",
-"id": "hse-kimberly-hardy",
-"name": "Kimberly Hardy",
-"stance": null,
-"state": "NC",
-"status": "Race not called",
-"summary": "No public statement found."
-},
-{
-"chamber": "house",
 "district": "MI-8",
 "id": "hse-kristen-mcdonald-rivet",
 "name": "Kristen McDonald Rivet",
@@ -2920,8 +2910,9 @@
 "name": "Raymond Smith Jr.",
 "stance": null,
 "state": "NC",
-"status": "Race not called",
-"summary": "No public statement found."
+"status": "New",
+"summary": "No public statement found.",
+"updated": "2026-11-18"
 },
 {
 "backing": "Jeffries",
