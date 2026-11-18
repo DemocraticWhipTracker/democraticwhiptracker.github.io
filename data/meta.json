@@ -1,24 +1,17 @@
 {
-"applied": 3,
+"applied": 0,
 "feedsChecked": [
-"Web search (Schumer/Van Hollen, Jeffries speaker, race calls)",
-"AP (via WHIO)",
-"CBS New York",
-"World Today Journal (aggregator, not used)",
+"Web search (Schumer/Van Hollen, Jeffries speaker caucus vote)",
+"AP syndications (already in feed)",
 "The Hill (blocked)",
-"Axios (blocked)",
-"NPR (blocked)"
+"Axios (blocked)"
 ],
-"itemsScanned": 14,
-"lastApplied": [
-"Emily Randall: Declared for Jeffries",
-"Shomari Figures: Declared for Jeffries",
-"Alexandria Ocasio-Cortez: Declared for Jeffries"
-],
-"lastRun": "2026-11-18T05:20:06Z",
-"newsAdded": 4,
+"itemsScanned": 6,
+"lastApplied": [],
+"lastRun": "2026-11-18T06:18:56Z",
+"newsAdded": 0,
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 8
+"skipped": 6
 }
