@@ -96,22 +96,36 @@
 {
 "backing": "Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-14",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "NY-14",
 "faction": "Progressive Caucus",
+"history": [
+{
+"date": "2026-11-18",
+"from": 2,
+"fromLabel": "Declared for Jeffries",
+"source": "AP",
+"summary": "Told reporters at the Capitol that Jeffries is the only candidate in the Speaker race, restating her support.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://www.whio.com/news/politics/democrat-hakeem/4EEA5GNK6UY6FAMXKW7ILR6GFA/"
+}
+],
 "id": "hse-alexandria-ocasio-cortez",
 "name": "Alexandria Ocasio-Cortez",
 "pct": 100,
-"quote": "The race is unopposed. Yeah.",
+"quote": "There is one candidate in this race: Hakeem Jeffries",
 "since": 2019,
-"source": "Al Jazeera / CNN",
-"sourceUrl": "https://www.aljazeera.com/news-analysis/2026/11/14/why-us-democrats-are-expected-to-keep-schumer-and-jeffries-in-power",
+"source": "AP",
+"sourceUrl": "https://www.whio.com/news/politics/democrat-hakeem/4EEA5GNK6UY6FAMXKW7ILR6GFA/",
 "stance": 2,
 "state": "NY",
 "status": "Incumbent",
-"summary": "Asked whether she backs Jeffries, said yes, noting the race is unopposed.",
-"timing": "Post-election"
+"summary": "Told reporters at the Capitol that Jeffries is the only candidate in the Speaker race, restating her support.",
+"timing": "Post-election",
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -1004,15 +1018,38 @@
 "via": "Primary Democrats tracker"
 },
 {
+"backing": "Jeffries",
 "chamber": "house",
+"changed": "No public position to Declared for Jeffries",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "WA-6",
+"history": [
+{
+"date": "2026-11-18",
+"from": null,
+"fromLabel": "No public position",
+"source": "AP",
+"summary": "Told AP she is supporting Hakeem Jeffries for Speaker and expects him to win.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://www.whio.com/news/politics/democrat-hakeem/4EEA5GNK6UY6FAMXKW7ILR6GFA/"
+}
+],
 "id": "hse-emily-randall",
 "name": "Emily Randall",
+"pct": 100,
+"quote": "I am supporting Hakeem Jeffries for speaker",
 "since": 2025,
-"stance": null,
+"source": "AP",
+"sourceUrl": "https://www.whio.com/news/politics/democrat-hakeem/4EEA5GNK6UY6FAMXKW7ILR6GFA/",
+"stance": 2,
 "state": "WA",
 "status": "Incumbent",
-"summary": "No public statement found."
+"summary": "Told AP she is supporting Hakeem Jeffries for Speaker and expects him to win.",
+"timing": "Post-election",
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -3273,21 +3310,35 @@
 {
 "backing": "Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-13",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "AL-2",
+"history": [
+{
+"date": "2026-11-18",
+"from": 2,
+"fromLabel": "Declared for Jeffries",
+"source": "AP",
+"summary": "Told AP he will stand by Jeffries in the caucus vote for Speaker.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://www.whio.com/news/politics/democrat-hakeem/4EEA5GNK6UY6FAMXKW7ILR6GFA/"
+}
+],
 "id": "hse-shomari-figures",
 "name": "Shomari Figures",
 "pct": 100,
+"quote": "I'm not going to not stand by him right here on the precipice of history",
 "since": 2025,
-"source": "Yellowhammer News",
-"sourceUrl": "https://yellowhammernews.com/i-dont-know-where-the-backlash-is-coming-from-shomari-figures-says-hakeem-jeffries-should-absolutely-be-speaker/",
+"source": "AP",
+"sourceUrl": "https://www.whio.com/news/politics/democrat-hakeem/4EEA5GNK6UY6FAMXKW7ILR6GFA/",
 "stance": 2,
 "state": "AL",
 "status": "Incumbent",
-"summary": "Reported as backing Jeffries for Speaker.",
+"summary": "Told AP he will stand by Jeffries in the caucus vote for Speaker.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
