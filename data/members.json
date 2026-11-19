@@ -237,19 +237,33 @@
 "backing": "Against Jeffries",
 "chamber": "house",
 "confidence": "high",
-"date": "2026-11-09",
+"date": "2026-11-18",
 "district": "CA-34",
+"history": [
+{
+"date": "2026-11-18",
+"from": -2,
+"fromLabel": "Opposed to Jeffries",
+"source": "TIME",
+"summary": "Said on X that she voted no on Jeffries in the caucus vote.",
+"to": -2,
+"toLabel": "Opposed to Jeffries",
+"url": "https://time.com/article/2026/11/18/democrats-hakeem-jeffries-house-speaker-nomination-vote/"
+}
+],
 "id": "hse-angela-gonzales-torres",
 "name": "Angela Gonzales-Torres",
 "pct": 0,
-"source": "Democracy Now!",
-"sourceUrl": "https://www.democracynow.org/2026/11/9/angela_gonzales_torres",
+"quote": "Angelenos have not been satisfied with the status quo.",
+"source": "TIME",
+"sourceUrl": "https://time.com/article/2026/11/18/democrats-hakeem-jeffries-house-speaker-nomination-vote/",
 "stance": -2,
 "state": "CA",
 "status": "New",
-"summary": "Says her vote is no as of now.",
+"summary": "Said on X that she voted no on Jeffries in the 18 Nov caucus vote, saying voters in Los Angeles want change.",
 "timing": "Post-election",
-"via": "Drop Site whip count"
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -976,21 +990,37 @@
 "summary": "No public statement found."
 },
 {
-"backing": "Against Jeffries (conditional)",
+"backing": "Against Jeffries",
 "chamber": "house",
+"changed": "Leaning against Jeffries to Opposed to Jeffries",
 "confidence": "high",
-"date": "2026-11-16",
+"date": "2026-11-18",
 "district": "OH-15",
+"history": [
+{
+"date": "2026-11-18",
+"from": -1,
+"fromLabel": "Leaning against Jeffries",
+"source": "TIME",
+"summary": "Confirmed on Instagram that he voted no on Jeffries in the caucus nomination vote.",
+"to": -2,
+"toLabel": "Opposed to Jeffries",
+"url": "https://time.com/article/2026/11/18/democrats-hakeem-jeffries-house-speaker-nomination-vote/"
+}
+],
 "id": "hse-don-leonard",
 "name": "Don Leonard",
-"pct": 25,
-"source": "The Hill / CNN",
-"sourceUrl": "https://thehill.com/the-120/6222534-don-leonard-jeffries-speaker/",
-"stance": -1,
+"pct": 0,
+"quote": "not just a caucus leader, but a leader of the Democratic Party",
+"source": "TIME",
+"sourceUrl": "https://time.com/article/2026/11/18/democrats-hakeem-jeffries-house-speaker-nomination-vote/",
+"stance": -2,
 "state": "OH",
 "status": "New",
-"summary": "Set out red lines on campaign finance and Israel aid before he'll vote for Jeffries.",
-"timing": "Post-election"
+"summary": "Confirmed on Instagram that he voted no on Jeffries in the 18 Nov caucus vote. He had set conditions on campaign finance and Israel aid.",
+"timing": "Post-election",
+"updated": "2026-11-18",
+"via": ""
 },
 {
 "chamber": "house",
@@ -1253,31 +1283,41 @@
 "backing": "Against Jeffries",
 "chamber": "house",
 "changed": "No public position to Opposed to Jeffries",
-"confidence": "high",
+"confidence": "medium",
 "date": "2026-11-18",
 "district": "TX-30",
 "history": [
 {
 "date": "2026-11-18",
 "from": null,
-"to": -2,
 "fromLabel": "No public position",
-"toLabel": "Opposed to Jeffries",
-"summary": "Voted no on Jeffries in the caucus vote and explained why in a joint statement with six other incoming Democrats.",
 "source": "The Hill",
+"summary": "Voted no on Jeffries in the caucus vote and explained why in a joint statement with six other incoming Democrats.",
+"to": -2,
+"toLabel": "Opposed to Jeffries",
 "url": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/"
+},
+{
+"date": "2026-11-18",
+"from": -2,
+"fromLabel": "Opposed to Jeffries",
+"source": "TIME",
+"summary": "A spokesperson said he missed the caucus vote through illness but had intended to vote no.",
+"to": -2,
+"toLabel": "Opposed to Jeffries",
+"url": "https://time.com/article/2026/11/18/democrats-hakeem-jeffries-house-speaker-nomination-vote/"
 }
 ],
 "id": "hse-frederick-haynes-iii",
 "name": "Frederick Haynes III",
 "pct": 0,
 "quote": "",
-"source": "The Hill",
-"sourceUrl": "https://thehill.com/the-120/6228189-house-progressives-oppose-jeffries-leadership/",
+"source": "TIME",
+"sourceUrl": "https://time.com/article/2026/11/18/democrats-hakeem-jeffries-house-speaker-nomination-vote/",
 "stance": -2,
 "state": "TX",
 "status": "New",
-"summary": "One of seven incoming Democrats who voted no on Jeffries in the 18 Nov caucus vote and said so in a joint statement. They cited unfinished talks on Medicare for All, Gaza, immigration enforcement and money in politics.",
+"summary": "Signed the joint statement of incoming Democrats opposing Jeffries for now. A spokesperson said he missed the 18 Nov caucus vote through illness but had intended to vote no.",
 "timing": "Post-election",
 "updated": "2026-11-18",
 "via": ""
@@ -1824,20 +1864,34 @@
 "backing": "Jeffries",
 "chamber": "house",
 "confidence": "medium",
-"date": "2026-11-11",
+"date": "2026-11-18",
 "district": "SC-6",
+"history": [
+{
+"date": "2026-11-18",
+"from": 2,
+"fromLabel": "Declared for Jeffries",
+"source": "CNN",
+"summary": "Spoke for Jeffries in the caucus before the 18 Nov nomination vote, according to people in the room.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://www.cnn.com/2026/11/18/politics/hakeem-jeffries-house-democrats-leadership-elections"
+}
+],
 "id": "hse-jim-clyburn",
 "name": "Jim Clyburn",
 "pct": 100,
+"quote": "",
 "since": 1993,
-"source": "The State",
-"sourceUrl": "https://www.msn.com/en-us/news/other/never-in-my-wildest-imagination-scs-rep-clyburn-talks-blue-wave-future/ar-AA2hfuqD",
+"source": "CNN",
+"sourceUrl": "https://www.cnn.com/2026/11/18/politics/hakeem-jeffries-house-democrats-leadership-elections",
 "stance": 2,
 "state": "SC",
 "status": "Incumbent",
-"summary": "Reported as backing Jeffries for Speaker.",
+"summary": "Spoke for Jeffries in the caucus before the 18 Nov nomination vote, according to people in the room.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-19",
+"via": ""
 },
 {
 "chamber": "house",
@@ -2034,15 +2088,38 @@
 "via": "Primary Democrats tracker"
 },
 {
+"backing": "Jeffries",
 "chamber": "house",
+"changed": "No public position to Declared for Jeffries",
+"confidence": "high",
+"date": "2026-11-17",
 "district": "NJ-5",
+"history": [
+{
+"date": "2026-11-17",
+"from": null,
+"fromLabel": "No public position",
+"source": "Newsweek",
+"summary": "Posted on X that he is 'team Hakeem' ahead of the caucus vote, saying critics could vote no if they wished.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://www.yahoo.com/news/politics/articles/hakeem-jeffries-speaker-nomination-democrats-155502627.html"
+}
+],
 "id": "hse-josh-gottheimer",
 "name": "Josh Gottheimer",
+"pct": 100,
+"quote": "I'm team Hakeem",
 "since": 2017,
-"stance": null,
+"source": "Newsweek",
+"sourceUrl": "https://www.yahoo.com/news/politics/articles/hakeem-jeffries-speaker-nomination-democrats-155502627.html",
+"stance": 2,
 "state": "NJ",
 "status": "Incumbent",
-"summary": "No public statement found."
+"summary": "Posted on X that he is 'team Hakeem' ahead of the caucus vote, saying critics could vote no if they wished.",
+"timing": "Post-election",
+"updated": "2026-11-19",
+"via": ""
 },
 {
 "chamber": "house",
@@ -4836,19 +4913,33 @@
 {
 "chamber": "senate",
 "confidence": "medium",
-"date": "2026-11-11",
+"date": "2026-11-17",
+"history": [
+{
+"date": "2026-11-17",
+"from": 0,
+"fromLabel": "Undecided",
+"source": "Common Dreams",
+"summary": "Reported on 17 Nov to be undecided after earlier being seen as a Schumer backer. His spokesperson says he is discussing the race.",
+"to": 0,
+"toLabel": "Undecided",
+"url": "https://www.commondreams.org/news/welch-schumer-van-hollen"
+}
+],
 "id": "sen-peter-welch",
 "name": "Peter Welch",
 "pct": 50,
+"quote": "",
 "since": 2007,
-"source": "WPTZ NBC5",
-"sourceUrl": "https://www.mynbc5.com/article/welch-democratic-senate-majority-leader/74404630",
+"source": "Common Dreams",
+"sourceUrl": "https://www.commondreams.org/news/welch-schumer-van-hollen",
 "stance": 0,
 "state": "VT",
 "status": "Incumbent",
-"summary": "Left the choice open while saying he's committed to change.",
+"summary": "Reported on 17 Nov to be undecided after earlier being seen as a Schumer backer. His spokesperson says he is discussing the race.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-19",
+"via": ""
 },
 {
 "chamber": "senate",

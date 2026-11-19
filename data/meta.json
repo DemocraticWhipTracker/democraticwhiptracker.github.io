@@ -1,26 +1,22 @@
 {
-"applied": 7,
+"applied": 3,
 "feedsChecked": [
-"The Hill 18 Nov (blocked, via search)",
-"ABC News 18 Nov",
-"Newsweek 18 Nov",
-"Truthout 18 Nov",
-"Washington Post 18 Nov"
+"Web searches: Senate leader and House Speaker races",
+"Common Dreams, Newsweek (via Yahoo), CNN (via Yahoo), Al Jazeera, Punchbowl, The National Desk, Fox News, NationofChange",
+"The Hill whip list (blocked)",
+"Washington Post (blocked)",
+"PIX11 (blocked)"
 ],
-"itemsScanned": 8,
+"itemsScanned": 20,
 "lastApplied": [
-"Darializa Avila Chevalier: Opposed to Jeffries",
-"Adam Hamawy: Opposed to Jeffries",
-"Frederick Haynes III: Opposed to Jeffries",
-"Melat Kiros: Opposed to Jeffries",
-"Donavan McKinney: Opposed to Jeffries",
-"Chris Rabb: Opposed to Jeffries",
-"Claire Valdez: Opposed to Jeffries"
+"Josh Gottheimer: Declared for Jeffries",
+"Jim Clyburn: Declared for Jeffries (newer evidence)",
+"Peter Welch: Undecided (newer evidence)"
 ],
-"lastRun": "2026-11-18T21:30:00Z",
-"newsAdded": 0,
+"lastRun": "2026-11-19T10:55:46Z",
+"newsAdded": 7,
 "note": "Seeded from public statements and tracker reports up to 16 Nov 2026.",
 "proposals": 0,
 "seededAt": "2026-11-16T18:15:00Z",
-"skipped": 0
+"skipped": 6
 }
