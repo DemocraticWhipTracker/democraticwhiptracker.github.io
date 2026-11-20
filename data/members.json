@@ -287,21 +287,39 @@
 "summary": "No public statement found."
 },
 {
+"backing": "Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-13",
+"changed": "No public position to Declared for Jeffries",
+"confidence": "high",
+"date": "2026-11-18",
 "district": "MA-7",
 "faction": "Progressive Caucus",
+"history": [
+{
+"date": "2026-11-18",
+"from": null,
+"fromLabel": "No public position",
+"source": "The Boston Globe",
+"summary": "Told The Boston Globe she voted to back Jeffries in the caucus vote and won't mount her own bid, saying she is confident he can be moved.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://www.bostonglobe.com/2026/11/18/nation/ayanna-pressley-speaker-jeffries/"
+}
+],
 "id": "hse-ayanna-pressley",
 "name": "Ayanna Pressley",
+"pct": 100,
+"quote": "I had a confidence in his ability to be moved.",
 "since": 2019,
-"source": "Axios",
-"sourceUrl": "https://www.axios.com/2026/11/13/jeffries-speaker-house-democrats-pressley-raskin",
-"stance": null,
+"source": "The Boston Globe",
+"sourceUrl": "https://www.bostonglobe.com/2026/11/18/nation/ayanna-pressley-speaker-jeffries/",
+"stance": 2,
 "state": "MA",
 "status": "Incumbent",
-"summary": "Floated by a draft movement as an alternative. Has privately told colleagues she doesn't want the role.",
-"timing": "Post-election"
+"summary": "Told The Boston Globe she voted to back Jeffries in the caucus vote and won't mount her own bid, saying she is confident he can be moved.",
+"timing": "Post-election",
+"updated": "2026-11-19",
+"via": ""
 },
 {
 "chamber": "house",
@@ -3983,21 +4001,35 @@
 {
 "backing": "Jeffries",
 "chamber": "house",
-"confidence": "medium",
-"date": "2026-11-10",
+"confidence": "high",
+"date": "2026-11-19",
 "district": "NY-9",
+"history": [
+{
+"date": "2026-11-19",
+"from": 2,
+"fromLabel": "Declared for Jeffries",
+"source": "PoliticsNY",
+"summary": "Confirmed in her own words that she voted for Jeffries in the caucus vote.",
+"to": 2,
+"toLabel": "Declared for Jeffries",
+"url": "https://politicsny.com/2026/11/19/rep-clarke-votes-to-advance-jeffries-as-speaker-designate-of-us-house/"
+}
+],
 "id": "hse-yvette-clarke",
 "name": "Yvette Clarke",
 "pct": 100,
+"quote": "",
 "since": 2007,
-"source": "NEWS10",
-"sourceUrl": "https://www.news10.com/capitol/jeffries-schumer-congress-leadership/",
+"source": "PoliticsNY",
+"sourceUrl": "https://politicsny.com/2026/11/19/rep-clarke-votes-to-advance-jeffries-as-speaker-designate-of-us-house/",
 "stance": 2,
 "state": "NY",
 "status": "Incumbent",
-"summary": "Reported as backing Jeffries for Speaker.",
+"summary": "Said she voted with the caucus on 18 Nov to make Jeffries Speaker-designate.",
 "timing": "Post-election",
-"via": "Primary Democrats tracker"
+"updated": "2026-11-20",
+"via": ""
 },
 {
 "chamber": "house",
@@ -4135,9 +4167,8 @@
 {
 "backing": "Schumer",
 "chamber": "senate",
-"changed": "Conflicting reports",
-"confidence": "low",
-"date": "2026-11-17",
+"confidence": "high",
+"date": "2026-11-18",
 "history": [
 {
 "date": "2026-11-17",
@@ -4148,21 +4179,31 @@
 "to": 2,
 "toLabel": "Declared for Schumer",
 "url": "https://www.thebanner.com/politics-power/national-politics/alsobrooks-van-hollen-schumer-colom-HDZVC2A7FFGPXLRN57EYPKSUXM/"
+},
+{
+"date": "2026-11-18",
+"from": 2,
+"fromLabel": "Declared for Schumer",
+"source": "CBS News Baltimore",
+"summary": "Told a Bethesda-Chevy Chase Democratic breakfast she will back Schumer, keeping an earlier commitment, while supporting Van Hollen as a colleague.",
+"to": 2,
+"toLabel": "Declared for Schumer",
+"url": "https://www.cbsnews.com/baltimore/news/maryland-sen-angela-alsobrooks-backs-schumer-van-hollen-leadership-race/"
 }
 ],
 "id": "sen-angela-alsobrooks",
 "name": "Angela Alsobrooks",
 "pct": 100,
-"quote": "We'll figure it out.",
+"quote": "I am definitely a person of my word.",
 "since": 2025,
-"source": "The Banner (conflicts with POLITICO, 2 Nov)",
-"sourceUrl": "https://www.thebanner.com/politics-power/national-politics/alsobrooks-van-hollen-schumer-colom-HDZVC2A7FFGPXLRN57EYPKSUXM/",
+"source": "CBS News Baltimore",
+"sourceUrl": "https://www.cbsnews.com/baltimore/news/maryland-sen-angela-alsobrooks-backs-schumer-van-hollen-leadership-race/",
 "stance": 2,
 "state": "MD",
 "status": "Incumbent",
-"summary": "POLITICO reported on 2 Nov that she backs Schumer, but The Banner reports her office declined to clarify her position on 17 Nov and Punchbowl lists her as uncommitted.",
+"summary": "Said publicly on 18 Nov that she will back Schumer over her fellow Maryland senator, honouring an earlier commitment. Says she supports Van Hollen as a colleague.",
 "timing": "Post-election",
-"updated": "2026-11-18",
+"updated": "2026-11-20",
 "via": ""
 },
 {
@@ -4439,22 +4480,36 @@
 "via": "Primary Democrats tracker"
 },
 {
-"backing": "Against Schumer (no pick yet)",
+"backing": "Van Hollen",
 "chamber": "senate",
 "confidence": "high",
-"date": "2026-11-13",
+"date": "2026-11-19",
+"history": [
+{
+"date": "2026-11-19",
+"from": -2,
+"fromLabel": "Opposed to Schumer",
+"source": "AP (via WHEC)",
+"summary": "Moved from opposing Schumer with no pick to backing Van Hollen by name.",
+"to": -2,
+"toLabel": "Opposed to Schumer",
+"url": "https://www.whec.com/ap-top-news/the-latest-kushner-says-he-believes-russia-is-comfortable-with-nato-like-security-for-ukraine/"
+}
+],
 "id": "sen-elissa-slotkin",
 "name": "Elissa Slotkin",
 "pct": 0,
+"quote": "I will be supporting Chris Van Hollen.",
 "since": 2019,
-"source": "CNN / C-SPAN",
-"sourceUrl": "https://x.com/cspan/status/2121315064972001671",
+"source": "AP (via WHEC)",
+"sourceUrl": "https://www.whec.com/ap-top-news/the-latest-kushner-says-he-believes-russia-is-comfortable-with-nato-like-security-for-ukraine/",
 "stance": -2,
 "state": "MI",
 "status": "Incumbent",
-"summary": "Said she won't back Schumer and floated withholding a quorum until he presents a plan.",
+"summary": "Endorsed Van Hollen for leader in a video on 19 Nov, saying Schumer is not best placed to lead.",
 "timing": "Post-election",
-"via": "Drop Site whip count"
+"updated": "2026-11-20",
+"via": ""
 },
 {
 "chamber": "senate",
@@ -4820,9 +4875,10 @@
 "sourceUrl": "https://www.washingtonexaminer.com/?p=4505725",
 "stance": 0,
 "state": "AK",
-"status": "Race not called",
-"summary": "Race not yet called. Schumer recruit with no statement on the leader race.",
+"status": "New",
+"summary": "Won the Alaska Senate race, called on 17 Nov. Has made no public statement on the leader race.",
 "timing": "Pre-election",
+"updated": "2026-11-20",
 "via": "Drop Site whip count"
 },
 {
